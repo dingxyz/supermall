@@ -1,8 +1,7 @@
 <template>
   <div id="app">
-    <!-- keep-alive 可以保存组件内的状态 -->
-    <!-- exclude 可以使某一个排除在外  Detail不排除的话每次进去不会刷新 -->
-    <keep-alive exclude="Detail">
+    <!-- keep-alive 可以保证内部的组件离开时不会被销毁 -->
+    <keep-alive>
       <router-view/>
     </keep-alive>
     <main-tab-bar/>
