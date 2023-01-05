@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.2.0",
-    "@vue/cli-service": "~4.2.0",
+    "@vue/cli-service": "~5.0.8",
     "common": "^0.2.5",
     "components": "^0.1.0",
     "vue-template-compiler": "^2.6.11"
